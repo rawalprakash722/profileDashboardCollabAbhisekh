@@ -11,7 +11,41 @@ const Dash_connect = () => {
 							{/* <!--begin::Header--> */}
 							<div className="">
 									<h3 className="text-center">Connect to differernt Platforms</h3>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates nesciunt alias iure dolores eius voluptate, nulla neque error sit ab praesentium culpa aspernatur. Atque esse eaque cum labore molestias.</p>
+									<div className="platformp text-center pt-0 pb-0 p-18 col-lg-12	">
+										<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo voluptates nesciunt alias iure dolores eius voluptate, nulla neque error sit ab praesentium culpa aspernatur. Atque esse eaque cum labore molestias.</p>
+									</div>
+									<div className=" row platform-contents">
+										<div className="row d-flex flex-nowrap">
+											<div className="card col-lg-3 col-sm-4 col-md-3 border p-5 m-1">
+												GG Relativity
+											</div>
+											<div className="card col-lg-3 col-sm-4 col-md-3 border p-5 m-1">
+												GG Portals
+											</div>
+											<div className="card col-lg-3 col-sm-4 col-md-3 border p-5 m-1">
+												GG Portals
+											</div>
+											<div className="card col-lg-3  col-sm-4 col-md-3 border p-5 m-1">
+												GG Relativity
+											</div>
+										</div>
+
+
+										<div className=" row d-flex flex-nowrap">
+											<div className="card col-lg-3 col-md-4 col-sm-4 border p-5 m-1">
+												GG Reelativity
+											</div>
+											<div className="card col-lg-3 col-sm-4 col-md-4 border p-5 m-1">
+												GG Portals
+											</div>
+											<div className="card col-lg-3 col-sm-4 col-md-4 border p-5 m-1">
+												GG Portals
+											</div>
+											<div className="card col-lg-3  col-sm-4 col-md-4 border p-5 m-1">
+												GG Relativity
+											</div>
+										</div>
+									</div>
 								</div>
 
 								{/* <!--end::Item-->
