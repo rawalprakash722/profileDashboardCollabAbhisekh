@@ -10,12 +10,15 @@ import Dash_mobileApp from './Dash_mobileApp'
 import Dash_getConn from './Dash_getConn'
 import NavBar from '../Components/Nav/index'
 import NavbarGG from '../Components/Nav/NavbarGG'
+import UserStart from './UserStart'
 
 const Home: NextPage = () => {
   return (
     <div  className={styles.container}>
-            <NavbarGG/>
-      <div className="page ">
+      <UserStart />
+            {/* <NavbarGG/>
+             */}
+      {/* <div className="page ">
         <div className="row mt-5">
           <div className="col-lg-9">
             <Dashboard />
@@ -44,7 +47,7 @@ const Home: NextPage = () => {
 
         </div>
       
-      </div>
+      </div> */}
 
       {/* <footer className={styles.footer}>  
           <span className={styles.logo}>
