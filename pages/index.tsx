@@ -10,35 +10,43 @@ import Dash_mobileApp from './Dash_mobileApp'
 import Dash_getConn from './Dash_getConn'
 import NavBar from '../Components/Nav/index'
 import NavbarGG from '../Components/Nav/NavbarGG'
+import Sidebar from '../Components/Nav/Sidebar'
+import UserStart from './UserStart'
 
 const Home: NextPage = () => {
   return (
-    <div  className={styles.container}>
-            <NavbarGG/>
+    <div>
+
+      <UserStart />
+
+      {/* <NavbarGG />
+      <div  className={styles.container}>
+            
       <div className="page ">
+
         <div className="row mt-5">
-          <div className="col-lg-9">
+          <div className="col-lg-9 col-md-8">
             <Dashboard />
           </div>
-          <div className="col-lg-3">
+          <div className="col-lg-3 col-md-4">
             <Dash_getConn />
           </div>
         </div>
         <div className="row g-5 g-xxl-12">
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6">
             <Dash_activities />
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-md-6">
             <Dash_profile />
           </div>
           <div className="col-lg-4">
             <Dash_card_service />
           </div>
 
-          <div className="col-lg-8 col-sm-4">
+          <div className="col-lg-8 ">
             <Dash_connect />
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 col-sm-6">
             <Dash_mobileApp />
           </div>
 
@@ -49,8 +57,11 @@ const Home: NextPage = () => {
       {/* <footer className={styles.footer}>  
           <span className={styles.logo}>
           </span>
-      </footer> */}
+      </footer> 
+      </div> */}
+
     </div>
+
   )
 }
 
