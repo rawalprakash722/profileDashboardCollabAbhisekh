@@ -6,11 +6,7 @@ const UserStart = () => {
       <div className="d-flex flex-column flex-root">
 			<div className="d-flex flex-column flex-lg-row flex-column-fluid stepper stepper-pills stepper-column" id="kt_create_account_stepper">
 				{/* <!--begin::Aside--> */}
-				{/* <div className="d-flex flex-column flex-lg-row-auto w-xl-500px bg-lighten shadow-sm">
-					{/* <!--begin::Wrapper--> */}
-					
-					{/* <!--end::Wrapper--> 
-				</div> */}
+				
 				{/* <!--begin::Aside-->
 				<!--begin::Body--> */}
 				<div className="d-flex flex-column flex-lg-row-fluid py-10">
@@ -27,8 +23,8 @@ const UserStart = () => {
 										{/* <!--begin::Heading--> */}
 										<div className="pb-10 pb-lg-15">
 											{/* <!--begin::Title--> */}
-											<h2 className="fw-bolder d-flex align-items-center text-dark">How Would You Like To Start
-											<i className="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Billing is issued based on your selected account type"></i></h2>
+											<h1 className="fw-bolder d-flex align-items-center text-dark">How Would You Like To Start
+											<i className="fas fa-exclamation-circle ms-2 fs-7" data-bs-toggle="tooltip" title="Billing is issued based on your selected account type"></i></h1>
 											{/* <!--end::Title-->
 											<!--begin::Notice--> */}
 											<div className="text-muted fw-bold fs-6">If you need more info, please check out
@@ -44,7 +40,7 @@ const UserStart = () => {
 												<div className="col-lg-12">
 													{/* <!--begin::Option--> */}
 													<input type="radio" className="btn-check" name="account_type" value="personal" checked="checked" id="kt_create_account_form_account_type_personal" />
-													<label className="btn btn-outline btn-outline-dashed btn-outline-default p-7 d-flex align-items-center mb-10" htmlFor="kt_create_account_form_account_type_personal">
+													<label className="btn btn-outline btn-outline-light btn-outline-default p-7 d-flex align-items-center mb-10" htmlFor="kt_create_account_form_account_type_personal">
 														{/* <!--begin::Svg Icon | path: icons/duotune/communication/com005.svg--> */}
 														<span className="svg-icon svg-icon-3x me-5">
 															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -56,8 +52,8 @@ const UserStart = () => {
 														<!--begin::Info--> */}
 														<Link href={"/Workxp"}>
 															<span className="d-block fw-bold text-start">
-																<span className="text-dark fw-bolder d-block fs-4 mb-2">As a Student</span>
-																<span className="text-muted fw-bold fs-6">Start as a student</span>
+																<span className="text-dark fw-bolder d-block fs-4 mb-2">As a Worker</span>
+																<span className="text-muted fw-bold fs-6">Start as a worker</span>
 															</span>
 														</Link>
 														{/* <!--end::Info--> */}
@@ -69,7 +65,7 @@ const UserStart = () => {
 												<div className="col-lg-12">
 													{/* <!--begin::Option--> */}
 													<input type="radio" className="btn-check" name="account_type" value="corporate" id="kt_create_account_form_account_type_corporate" />
-													<label className="btn btn-outline btn-outline-dashed btn-outline-default p-7 d-flex align-items-center" htmlFor="kt_create_account_form_account_type_corporate">
+													<label className="btn btn-outline btn-outline-light btn-outline-default p-7 d-flex align-items-center" htmlFor="kt_create_account_form_account_type_corporate">
 														{/* <!--begin::Svg Icon | path: icons/duotune/finance/fin006.svg--> */}
 														<span className="svg-icon svg-icon-3x me-5">
 															<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
@@ -81,7 +77,7 @@ const UserStart = () => {
 														<!--begin::Info--> */}
 														<Link href={""}>
 															<span className="d-block fw-bold text-start">
-																<span className="text-dark fw-bolder d-block fs-4 mb-2">As a Worker</span>
+																<span className="text-dark fw-bolder d-block fs-4 mb-2">As a Student</span>
 																<span className="text-muted fw-bold fs-6">Create workers account</span>
 															</span>
 														</Link>
@@ -97,18 +93,18 @@ const UserStart = () => {
 									</div>
 									{/* <!--end::Wrapper--> */}
 								</div>
-								{/* <!--end::Step 1-->
-								
-								{/* <!--end::Step 2--> */}
-								
-								{/* <!--begin::Actions--> */}
-								
-								{/* <!--end::Actions--> */}
 							</form>
-							{/* <!--end::Form--> */}
+								{/* <!--end::Step 1-->
+							 <!--end::Form--> */}
 						</div>
+						
 						{/* <!--end::Wrapper--> */}
 					</div>
+					<div className="d-flex flex-column flex-lg-row-auto w-xl-500px m-10 bg-lighten shadow-sm">
+					{/* <!--begin::Wrapper--> */}
+					
+					{/* <!--end::Wrapper-->  */}
+				</div>
 
 				</div>
 				{/* <!--end::Body--> */}
