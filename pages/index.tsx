@@ -12,13 +12,14 @@ import NavBar from '../Components/Nav/index'
 import NavbarGG from '../Components/Nav/NavbarGG'
 import Sidebar from '../Components/Nav/Sidebar'
 import UserStart from './UserStart'
+// import GenerateCard from './GenerateCard'
 
 const Home: NextPage = () => {
   return (
     <div>
 
       <UserStart />
-
+    {/* <GenerateCard /> */}
       {/* <NavbarGG />
       <div  className={styles.container}>
             
